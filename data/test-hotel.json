@@ -1,0 +1,42 @@
+{
+  "_id": {
+    "$oid": "6566072befbb78591fadc606"
+  },
+  "userId": "6554f2ecd4f07417501dcbf1",
+  "name": "Dublin Getaways",
+  "city": "Dublin",
+  "country": "Ireland",
+  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ultricies sodales rhoncus. Mauris nisl sapien, interdum vitae mi et, porttitor faucibus velit. Duis quis nisl feugiat, volutpat leo a, efficitur lectus. Praesent vulputate turpis nec sapien vulputate tincidunt. Maecenas vitae aliquam ipsum. Ut ultricies hendrerit ante eget vehicula. Cras sit amet semper odio. Pellentesque lacinia, sapien a tristique ultrices, augue diam interdum nulla, non porttitor ligula nisl at nibh. Aenean in lobortis velit, sed hendrerit mi. Nam leo sem, laoreet quis diam eget, euismod lobortis purus. Aenean laoreet dui vel diam pulvinar viverra.\r\n\r\nFusce non nisi laoreet, egestas felis dignissim, tempor arcu. Ut feugiat nibh vel sodales suscipit. Phasellus ultricies eget eros id bibendum. Nunc lobortis orci interdum felis bibendum pretium. Vivamus placerat ligula a consequat ultricies. Etiam aliquam nibh vitae efficitur finibus. Duis iaculis tristique sapien. Aenean vel sollicitudin dolor. Aliquam vel nisl id augue pellentesque aliquet.\r\n\r\nFusce a egestas urna. Fusce eu sapien viverra, feugiat risus nec, accumsan enim. Donec vel sapien blandit, semper est non, congue ante. Sed lectus nulla, efficitur nec tortor nec, sollicitudin varius massa. Donec lectus mauris, vehicula ut semper eget, pharetra maximus lacus. Pellentesque pharetra facilisis luctus. Nunc lacus sapien, gravida vitae egestas in, mattis in tellus.",
+  "type": "All Inclusive",
+  "adultCount": {
+    "$numberInt": "2"
+  },
+  "childCount": {
+    "$numberInt": "3"
+  },
+  "facilities": [
+    "Airport Shuttle",
+    "Family Rooms",
+    "Non-Smoking Rooms",
+    "Spa"
+  ],
+  "pricePerNight": {
+    "$numberInt": "119"
+  },
+  "starRating": {
+    "$numberInt": "2"
+  },
+  "imageUrls": [
+    "http://res.cloudinary.com/dr55yjjx4/image/upload/v1701185322/a4ypeock0piore5mbnyy.jpg",
+    "http://res.cloudinary.com/dr55yjjx4/image/upload/v1701185322/vd9oude4cwkti7s9yp0y.jpg",
+    "http://res.cloudinary.com/dr55yjjx4/image/upload/v1701185322/twxkbjmcoy4gzmtwc4li.jpg"
+  ],
+  "lastUpdated": {
+    "$date": {
+      "$numberLong": "1701185323228"
+    }
+  },
+  "__v": {
+    "$numberInt": "0"
+  }
+}
