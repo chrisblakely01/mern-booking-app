@@ -111,7 +111,7 @@ cd mern-booking-app
         - Ensure the file format is set to JSON and click "Import".
         - The test hotel data will be added to the `hotels` collection.
  
-3. ** Running tests **    
+3. **Running tests**    
     - In VS Code install the [Playwright extension](https://marketplace.visualstudio.com/items?itemName=ms-playwright.playwright)
     - Navigate to the `e2e-tests` directory.
     - Install dependencies: `npm install`.
