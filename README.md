@@ -1,5 +1,5 @@
 # UI update
-Creating custom and easy slide with nice animation
+ Easy slide with nice animation
 
 ![alt text](https://res.cloudinary.com/djmemzuxc/image/upload/v1706364980/cjtrvrrx4bp92aayliae.gif)
 
