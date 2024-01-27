@@ -5,6 +5,6 @@ Creating custom and easy slide with nice animation
 
 ## Updated IN :
 
-1- TypesSection.tsx : adding slide 
-2- hotel-opons-cotinfig : hotelTypes - using free images
-3-  index.css : webkit-scrollbar
+1. TypesSection.tsx : adding slide 
+2. hotel-opons-cotinfig : hotelTypes - using free images
+3.  index.css : webkit-scrollbar
