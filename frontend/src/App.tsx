@@ -62,7 +62,14 @@ const App = () => {
             </Layout>
           }
         />
-
+        <Route
+          path="/add-hotel"
+          element={
+            <Layout>
+              <AddHotel />
+            </Layout>
+          }
+        />
         {isLoggedIn && (
           <>
             <Route
@@ -74,14 +81,7 @@ const App = () => {
               }
             />
 
-            <Route
-              path="/add-hotel"
-              element={
-                <Layout>
-                  <AddHotel />
-                </Layout>
-              }
-            />
+          
             <Route
               path="/edit-hotel/:hotelId"
               element={
