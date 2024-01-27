@@ -74,14 +74,13 @@ const App = () => {
               }
             />
 
-           <Route
+        <Route
           path="/add-hotel"
           element={
             <Layout>
               <AddHotel />
             </Layout>
-          }
-        />
+          } />
             <Route
               path="/edit-hotel/:hotelId"
               element={
