@@ -1,0 +1,30 @@
+version: "3.8"
+services:
+ mongo:
+  image: mongo
+  container_name: database
+  volumes:
+   - ./data/:/data/db
+  restart: unless-stopped
+
+ backend:
+  build: ./backend
+  container_name: backend
+  ports:
+   - "7000:7000"
+  environment:
+   MONGODB_CONNECTION_STRING: "mongodb://mongo:27017" 
+   FRONTEND_URL: http://frontend:3000
+  depends_on:
+   - mongo
+
+ frontend:
+  build: ./frontend
+  container_name: frontend
+  ports:
+   - "3000:3000"
+   - "5173:5173"
+  environment:
+   VITE_API_BASE_URL: http://backend:7000
+  depends_on:
+   - backend

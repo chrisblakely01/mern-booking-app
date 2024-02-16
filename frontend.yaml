@@ -1,0 +1,37 @@
+apiVersion: v1
+kind: Service
+metadata:
+ name: frontend
+spec:
+ selector:
+  app: frontend
+ ports:
+  - protocol: TCP
+    port: 3000
+    targetPort: backport
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+ name: frontend
+spec:
+ selector:
+  matchLabels:
+   app: frontend
+ template:
+  metadata:
+   labels:
+    app: frontend
+  spec:
+   containers:
+   - name: frontend
+     image: helion55/booking-frontend:1.0.0 
+     ports:
+     - name: backport 
+       containerPort: 3000
+     - name: frontport 
+       containerPort: 5173
+     env:
+      - name: VITE_API_BASE_URL
+        value: http://backend:7000
+
