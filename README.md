@@ -123,9 +123,9 @@ cd mern-booking-app
 
 1. **Creating Dockerfiles**
    - Backend application have its own Dockerfile in backend directory.
-   - Use command " docker build -t <image-name> . "
+   - Use command " docker build -t image-name . "
    - Frontend application also have its own Dockerfile in frontend directory.
-   - Use command " docker build -t <image-name> . "
+   - Use command " docker build -t image-name . "
 
 3. **Running Containers With Docker-Compose**
    - Use command " docker-compose up " to to create (if images are not created) and run all the containers, a network will connect all of them automatically.
